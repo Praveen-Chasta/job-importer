@@ -21,7 +21,7 @@ export default function HomePage() {
 
   useEffect(() => {
     async function fetchLogs() {
-      const res = await fetch("https://job-importer-6fjm.onrender.com/api/logs");
+      const res = await fetch("https://job-importer-xltg.onrender.com/api/logs");
       const data = await res.json();
       setLogs(data.reverse());
     }

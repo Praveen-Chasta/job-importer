@@ -11,7 +11,7 @@ const PORT = 5000;
 
 // ✅ CORS Policy
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: ["http://localhost:3000", "https://job-importer-teal.vercel.app/"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
